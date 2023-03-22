@@ -1,0 +1,1 @@
+import{R as r}from"./control-e7f5239e.js";function t(o,e){return new r(o,e)}new TextEncoder;async function n({parent:o}){const{user:e}=await o();throw t(307,e?`/profile/@${e.username}`:"/login")}const c=Object.freeze(Object.defineProperty({__proto__:null,load:n},Symbol.toStringTag,{value:"Module"}));export{c as _,n as l};
